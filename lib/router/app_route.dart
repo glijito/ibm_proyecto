@@ -12,6 +12,9 @@ class AppRoutes {
     MenuOptions(route: 'listview2', name: 'Listview Tipo 2', screen: Listview2Screen(),  icon: Icons.list_alt),
     MenuOptions(route: 'alert_screen', name: 'Alerts', screen: AlertScreen(),  icon: Icons.add_alert),
     MenuOptions(route: 'card_screen', name: 'Tarjetas', screen: CardScreen(),  icon: Icons.card_giftcard),
+    MenuOptions(route: 'avatar', name: 'Icon Avatar', screen: AvatarScreen(),  icon: Icons.account_circle_rounded),
+    MenuOptions(route: 'animated', name: 'Animated container', screen: AnimatedScreen(),  icon: Icons.play_arrow_outlined),
+    MenuOptions(route: 'input', name: 'InputScreen', screen: InputScreen(),  icon: Icons.input_rounded),
   ];
 
   static Map<String, Widget Function(BuildContext)> getMenuRoutes(){
