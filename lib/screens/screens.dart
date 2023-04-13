@@ -6,3 +6,5 @@ export 'package:ibm_proyecto/screens/home_screen.dart';
 export 'package:ibm_proyecto/screens/avatar_screen.dart';
 export 'package:ibm_proyecto/screens/animated_screen.dart';
 export 'package:ibm_proyecto/screens/input_screen.dart';
+export 'slider_screen.dart';
+export 'listview_builder.dart';
